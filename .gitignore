@@ -1,0 +1,15 @@
+# Ignoriere ALLES im Root-Verzeichnis
+/*
+!.gitignore
+
+# Ausnahme: cgi-bin und htdocs
+!/cgi-bin/
+!/htdocs/
+
+# Ignoriere Unterverzeichnisse außerhalb von cgi-bin/htdocs
+**/temp/
+**/logs/
+**/mysql/
+**/php/
+**/tmp/
+**/vendor/
