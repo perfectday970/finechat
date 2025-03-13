@@ -33,11 +33,11 @@ TEMP_DIR = "D:/xampp/temp_mpl"
 os.makedirs(TEMP_DIR, exist_ok=True)
 
 # DeepSeek-R1-Distill-Qwen-32B Modell laden
-#MODEL_PATH = "D:/KI-Modelle/DeepSeek-R1-Distill-Qwen-1.5B"
+MODEL_PATH = "D:/KI-Modelle/DeepSeek-R1-Distill-Qwen-1.5B"
 #MODEL_PATH = "D:/KI-Modelle/deepseek-llm-7b-chat"
 #MODEL_PATH = "D:/KI-Modelle/DeepSeek-R1-Distill-Llama-8B"
-MODEL_PATH = "D:/KI-Modelle/Llama-3.2-3B-Hermes"
-LlamaLike = True
+#MODEL_PATH = "D:/KI-Modelle/Llama-3.2-3B-Hermes"
+LlamaLike = False
 
 tokenizer = AutoTokenizer.from_pretrained(
     MODEL_PATH,
